@@ -58,7 +58,7 @@ export const About = () => {
           visually appealing web applications.
         </div>
         <a
-          href="/portfolio/Adarsh_Singh.pdf"
+          href="/Adarsh_Singh.pdf"
           target="_blank"
           rel="noreferrer"
           className={styles.resume}
