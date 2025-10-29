@@ -10,7 +10,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 
 function App() {
 	return (
-		<Router basename="portfolio">
+		<Router basename="/">
 			<Navbar/>
 			<section id="about"><About /></section>
 			<section id="skills"><Skills /></section>
