@@ -158,25 +158,12 @@ export const Skills = () => {
 						
 							<div className={styles.tech}>
 								<img
-									src={require("../Images/gradle.png")}
-									alt="gradle"
-								/>
-								Gradle
-							</div>
-							<div className={styles.tech}>
-								<img
 									src={require("../Images/thunderclient.png")}
 									alt="thunderclient"
 								/>
 								Thunder Client
 							</div>
-							<div className={styles.tech}>
-								<img
-									src={require("../Images/glitch.png")}
-									alt="glitch"
-								/>
-								Glitch
-							</div>
+	
 						</div>
 					</div>
 					<div className={`${styles.cards} tilt`}>
@@ -196,13 +183,7 @@ export const Skills = () => {
 								/>
 								GitHub
 							</div>
-							<div className={styles.tech}>
-								<img
-									src={require("../Images/hostinger.png")}
-									alt="hostinger"
-								/>
-								Hostinger
-							</div>
+						
 							<div className={styles.tech}>
 								<img
 									src={require("../Images/vercel.png")}
@@ -210,14 +191,7 @@ export const Skills = () => {
 								/>
 								Vercel
 							</div>
-							<div className={styles.tech}>
-								<img
-									src={require("../Images/render.png")}
-									alt="render"
-								/>
-								Render
-							</div>
-					
+						
 							<div className={styles.tech}>
 								<img
 									src={require("../Images/vscode.png")}

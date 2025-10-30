@@ -259,7 +259,7 @@ export const Navbar = () => {
 				</li>
 				<li>
 					<a 
-					className="{styles.github}"
+					className="Navbar_github__0mAqn"
 					href="https://github.com/Adarsh-tech01"
 					target="blank"
 					rel="author"

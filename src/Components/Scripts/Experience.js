@@ -21,15 +21,15 @@ export const Experience = () => {
         Bringing ideas to life through code with hands-on experience across
         technologies and roles.
       </p>
-      <div className={styles.timeline}>
-        <div className={`${styles.box} ${styles.left_box}`}></div>
-        <div className={`${styles.box} ${styles.right_box}`}>
-          <img
+      {/* <div className={styles.timeline}> */}
+        {/* <div className={`${styles.box} ${styles.left_box}`}></div> */}
+        <div className={`${styles.box} `}>
+          {/* <img
             className={styles.icons}
             src={require("../Images/ten.jpg")}
             alt="ten"
             data-aos="zoom-in"
-          />
+          /> */}
           <div className={styles.text_box} data-aos="fade-up">
             <p className={styles.title}>React JS Developer</p>
             <p className={styles.subtitle}>The Entrepreneurship Network</p>
@@ -52,7 +52,7 @@ export const Experience = () => {
             <span className={styles.right_box_arrow}></span>
           </div>
         </div>
-      </div>
+      {/* </div> */}
     </div>
   );
 };

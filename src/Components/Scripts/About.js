@@ -68,7 +68,7 @@ export const About = () => {
       </div>
       <img
         className={`${styles.mypic} tilt`}
-        src={require("../Images/mypic.jpg")}
+        src={require("../Images/profile_image.jpeg")}
         alt="mypic"
       />
     </div>
