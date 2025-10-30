@@ -50,14 +50,7 @@ export const Achievements = () => {
             <p className={styles.subtitle}>
               A School website which reduce physical record manage work.
             </p>
-            <p className={styles.description}>
-              A School Management System is a web-based application designed to
-              streamline administrative and academic operations. It manages
-              student records, attendance, fees, exams, staff, and communication
-              between teachers, students, and parents. The system enhances
-              efficiency, reduces paperwork, and ensures smooth coordination
-              within the educational institution.
-            </p>
+            
             <div className={styles.button_box}>
               <a
                 href="https://school-app-two-rose.vercel.app/"
@@ -86,16 +79,15 @@ export const Achievements = () => {
             />
 
             <p className={styles.title}>Certificates of Completion</p>
-            <p className={styles.subtitle}>
-              Validated proficiency in multiple technologies
-            </p>
-            <p className={styles.description}>
-              Earning certificates from the Great Learning Academy validates my
-              knowledge in key programming languages and technologies. Courses
-              completed include React JS. These certifications highlight my commitment to
-              learning and staying updated with industry-relevant skills. They
-              demonstrate my ability to apply new concepts effectively.
-            </p>
+             <div className={styles.button_box}>
+              <a
+                href="https://www.mygreatlearning.com/certificate/NODSNVUQ"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Validate Certificate
+              </a>
+            </div>
             <div className={styles.button_box}>
               {/* <a
                 href="https://school-app-two-rose.vercel.app/"

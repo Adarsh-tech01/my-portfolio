@@ -56,14 +56,14 @@ export const Projects = () => {
             <p className={styles.subtitle}>
               A School website which reduce physical record manage work.
             </p>
-            <p className={styles.description}>
+            {/* <p className={styles.description}>
               A School Management System is a web-based application designed to
               streamline administrative and academic operations. It manages
               student records, attendance, fees, exams, staff, and communication
               between teachers, students, and parents. The system enhances
               efficiency, reduces paperwork, and ensures smooth coordination
               within the educational institution.
-            </p>
+            </p> */}
             <div className={styles.button_box}>
               <a
                 href="https://school-app-two-rose.vercel.app/"
