@@ -49,7 +49,6 @@ export const Experience = () => {
                 Visit Website
               </a>
             </div>
-            <span className={styles.right_box_arrow}></span>
           </div>
         </div>
       {/* </div> */}
