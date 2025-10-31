@@ -78,6 +78,45 @@ export const Projects = () => {
         </div>
       
       </div>
+      <div className={styles.timeline}>
+        <div className={`${styles.box} ${styles.right_box}`}>
+          <img
+            className={styles.icons}
+            src={require("../Images/weather.jpg")}
+            alt="school-app"
+            data-aos="zoom-in"
+          />
+          <div className={styles.text_box} data-aos="fade-up">
+              <img 
+              src={require('../Images/weather-project.jpg')}
+              alt="weather-project"
+              style={{width:'100%'}}
+              />
+            <div className={styles.tags_box}>
+              <span className={styles.tags}>React</span>
+              <span className={styles.tags}>Javascript</span>
+              <span className={styles.tags}>Material UI</span>
+               <span className={styles.tags}>Weather API</span>
+            </div>
+            <p className={styles.title}>Weather Forecast</p>
+            <p className={styles.subtitle}>
+              This is a real time weather forecast web application.
+            </p>
+            <div className={styles.button_box}>
+              <a
+                href="https://adarsh-weather-forecast.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Visit Website
+              </a>
+            </div>
+            <span className={styles.right_box_arrow}></span>
+          </div>
+        </div>
+      
+      
+      </div>
     </div>
   );
 };
